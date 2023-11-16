@@ -46,9 +46,10 @@ public class App {
 
 
         
-        for (int i = 0; i < n; i++) {
+        char[] ab = {'x', 'y', 'z', 't'};
 
-            System.out.println("x" + (i + 1) + " = " + solucion[i]);
+        for (int i = 0; i < n; i++) {
+            System.out.println(ab[i]+" = "+solucion[i]);
         }
     }
 }
